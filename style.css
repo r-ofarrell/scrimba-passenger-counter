@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    color: rgba(231, 149, 147, .95);
+    font-family: 'Roboto', sans-serif
+}
+
+/* ======================
+ Typography
+======================= */
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0.5em;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+#increment-btn,
+#save-btn {
+    display: inline-block;
+    margin: 0.25em;
+    padding: 0.5em 1.5em;
+    width: 30vw;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(to left, #A0E9D0, #E7C9C9);/*#E7C9C9);*/
+    color: #0E0E0E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+
+/* ======================
+ Layout
+======================= */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-image: url(ireland_railway_sunset.jpg);
+    background-color: #404040;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
